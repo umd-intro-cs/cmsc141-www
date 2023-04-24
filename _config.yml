@@ -13,13 +13,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+title: "CMSC 141"
+tagline: "Programming with Purpose"
+description: University of Maryland, Fall 2023
+author: David Van Horn
+baseurl: '/class/fall2023/cmsc141' # the subpath of your site, e.g. /blog
+url: 'https://www.cs.umd.edu' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+
+course_description: |+  
+  This course is an introduction to computing and programming through
+  the lens of data. It aims to give you ways of thinking about solving
+  problems using computation. Students will learn to write programs to
+  process both tabular and structured data, to assess programs both
+  experimentally and theoretically, to apply basic data science
+  concepts, and to discuss big ideas around the communication, use,
+  and social impacts of digital information.
+  
+  The course is targeted to students with a broad diversity in
+  backgrounds and interests. No prerequisites are assumed beyond high
+  school algebra.
+
+learning_objectives: |+
+  1. Learn how to solve problems systematically using computational thinking.
+  2. Write and debug programs using a high-level programming language.
+  3. Understand the concept of algorithms and the importance of algorithm design in computer science.
+  4. Learn to write programs to process both tabular and structured data.
+  5. Apply statistical methods to analyze data and draw meaningful conclusions from it.
+  6. Work with real-world data drawn from a diverse set of domains outside of computer science.
+  7. Learn how to assess programs both experimentally and theoretically.
+  8. Understand ethical considerations related to computing.
+  9. Collect, clean, and manipulate data using common tools and programming languages.
+  10. Learn how to specify and test behaviors of programs.
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.5.0
@@ -28,11 +53,12 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  Piazza:
+    - '#'
+  Gradescope:
+    - '#'
+  ELMS:
+    - '#'
 
 # Collections for website data
 collections:
@@ -42,6 +68,10 @@ collections:
   announcements:
 # Default layouts for each collection type
 defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
   - scope:
       path: ''
       type: staffers
@@ -73,3 +103,9 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+callouts:
+  highlight:
+    title:
+    color: yellow
+    
