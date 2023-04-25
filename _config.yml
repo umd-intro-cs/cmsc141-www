@@ -62,6 +62,8 @@ aux_links:
 
 # Collections for website data
 collections:
+  homeworks:
+    output: true
   staffers:
   modules:
   schedules:
