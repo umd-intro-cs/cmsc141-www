@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Homeworks
-has_children: true
 has_toc: false
 description: >-
     Homeworks
@@ -11,10 +10,10 @@ description: >-
 
 ---
 
-
+[//]: This does not seem like the idiomatic way of constructing a URL
 
 | Homework       | Due |
 |:--------------|:----|
-{% for hw in site.homeworks %} | [{{  hw.title }}]({{ hw.url }}) | {{ hw.due }}
+{% for hw in site.homeworks %} | [{{  hw.title }}]({{ site.baseurl }}{{ hw.url }}) | {{ hw.due }}
 {% endfor %}
 

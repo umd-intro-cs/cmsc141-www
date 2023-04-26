@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-has_children: true
 has_toc: false
 description: >-
     Projects
@@ -13,6 +12,6 @@ description: >-
 
 | Project       | Due |
 |:--------------|:----|
-| TBD           | TBD |
-| [Pirate Game](p2)   | TBD |
-| [Python & Pandas](p3)   | TBD |
+{% for x in site.projects %} | [{{ x.title }}]({{ site.baseurl }}{{ x.url }}) | {{ x.due }}
+{% endfor %}
+
