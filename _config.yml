@@ -17,7 +17,7 @@ title: "CMSC 141"
 tagline: "Programming with Purpose"
 description: University of Maryland, Fall 2023
 author: David Van Horn
-# baseurl: '/~dvanhorn/tmp/cmsc141' # the subpath of your site, e.g. /blog
+baseurl: '/cmsc141-www' # the subpath of your site, e.g. /blog
 # url: 'https://www.cs.umd.edu' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 

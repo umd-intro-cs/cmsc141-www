@@ -11,9 +11,10 @@ description: >-
 ---
 
 [//]: This does not seem like the idiomatic way of constructing a URL
+[//]: {% increment i %}
 
 | Homework       | Due |
 |:--------------|:----|
-{% for hw in site.homeworks %} | [{{  hw.title }}]({{ site.baseurl }}{{ hw.url }}) | {{ hw.due }}
+{% for hw in site.homeworks %} | {% increment i %}. [{{  hw.title }}]({{ site.baseurl }}{{ hw.url }}) | {{ hw.due }} 
 {% endfor %}
 
