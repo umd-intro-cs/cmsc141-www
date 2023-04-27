@@ -19,7 +19,11 @@ description: University of Maryland, Fall 2023
 author: David Van Horn
 baseurl: '/cmsc141-www' # the subpath of your site, e.g. /blog
 # url: 'https://www.cs.umd.edu' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
 
 course_description: |+  
   This course is an introduction to computing and programming through
