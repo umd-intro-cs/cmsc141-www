@@ -50,10 +50,8 @@ learning_objectives: |+
   9. Collect, clean, and manipulate data using common tools and programming languages.
   10. Learn how to specify and test behaviors of programs.
 
-# FIXME: I don't know how to reference gradescope_url in aux_links below to avoid
-# duplicating the URLs.
 
-gradescope_url: "https://gradescope.com" # FIXME with actual course link
+gradescope_url: &gradescope "https://gradescope.com"
 
 date_format: '%a, %b %d'
 
@@ -67,7 +65,7 @@ aux_links:
   Piazza:
     - '#'
   Gradescope:
-    - '#'
+    - *gradescope
   ELMS:
     - '#'
 
