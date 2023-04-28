@@ -116,7 +116,7 @@ courses.
 
 TBD.
 
-### Learning objectives for CMCS 131
+### Learning objectives for CMSC 131
 
 1. Understand foundation concepts of computer systems such as binary and hexadecimal representation and how these can connect into higher level languages and help identify causes of certain software errors.
 2. Gain experience in developing a mindset of computational thinking, and apply that to taking detailed, multi-level, program requirements and create software solutions that behave exactly as needed.
