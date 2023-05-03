@@ -44,3 +44,13 @@ Lacus viverra vitae congue eu. Suspendisse in est ante in nibh mauris cursus mat
 ## Assignments
 
 Vehicula ipsum a arcu cursus vitae congue. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Risus sed vulputate odio ut enim blandit. Aliquam id diam maecenas ultricies mi eget. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Eget mi proin sed libero enim sed faucibus. Sem integer vitae justo eget magna fermentum iaculis. In mollis nunc sed id semper risus in. Sit amet risus nullam eget felis eget. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. At varius vel pharetra vel turpis nunc eget. Scelerisque purus semper eget duis at tellus.
+
+## Office hours
+In-person in [Room] and online on [Zoom?]
+
+There will be walk-in office hours throughout the week (see [schedule]) for you to ask questions and get help on course material. You can attend any TA’s office hours, regardless of which section you are in. Keep in mind that office hours can get very busy right before an assignment is due so you are encouraged to start early.  
+
+Here are some guidelines: 
+- Make sure to come with a clearly formulated question(s) and be caught up with lecture material. 
+- Before asking for help on a coding assignment you should try to solve the problem by yourself, and be prepared to explain how you approached the problem and what did or did not work. 
+- The TAs are there to help you understand concepts from class and point you in the right direction, not do all the work for you. 
