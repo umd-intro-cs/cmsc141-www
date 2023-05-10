@@ -1,22 +1,23 @@
 ---
-title: Introduction
+title: Introduction (Week 1)
 ---
 
 Aug 28
-: [Welcome and Introduction to Programming](#)
-  : [1.1](#)
+: {% include lec.md x="[Welcome and Introduction to Programming](#)" %}
+  : [3.1](https://dcic-world.org/2023-02-21/getting-started.html)
+: **Code**{: .label .label-blue } [example.arr](#)
 
 Aug 29
 : **Lab**{: .label .label-purple } [TBD](#)
   
 Aug 30
-: [Composing Images](#)
+: {% include lec.md x="[Composing Images](#)" %}
   : [1.2](#), [2.1](#)
 
 Sep 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+: **Lab**{: .label .label-purple } [TBD](#)
 
 Sep 2
-: [Names, types, and code organization](#)
+: {% include lec.md x="[Names, types, and code organization](#)" %}
   : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+: **HW 1 out**{: .label .label-red }

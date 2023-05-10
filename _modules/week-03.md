@@ -10,8 +10,8 @@ Sep 12
 : **Lab**{: .label .label-purple } [TBD](#)
   : 
 
-Sep 13
-: **Lec**{: .label .label-purple } [Processing tables](#)
+Sep 13  
+: {% include lec.md x="[Processing tables](#)" %}
   : [Solution](#)
 
 Sep 14
@@ -19,6 +19,6 @@ Sep 14
   : [2.4](#), [2.5](#)
 
 Sep 15
-: **Lec**{: .label .label-purple } [Design practice with conditionals and helper functions](#)
+: {% include lec.md x="[Design practice with conditionals and helper functions](#)" %}
   : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
 : **HW 2 due**{: .label .label-red }
