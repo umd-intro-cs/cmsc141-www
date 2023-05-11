@@ -52,5 +52,7 @@ There will be walk-in office hours throughout the week (see [schedule]) for you 
 
 Here are some guidelines: 
 - Make sure to come with a clearly formulated question(s) and be caught up with lecture material. 
-- Before asking for help on a coding assignment you should try to solve the problem by yourself, and be prepared to explain how you approached the problem and what did or did not work. 
+- Before asking for help on a coding assignment you should try to solve the problem by yourself, and be prepared to explain how you approached the problem, what did or did not work, and show the testing blocks you wrote. 
 - The TAs are there to help you understand concepts from class and point you in the right direction, not do all the work for you. 
+
+Everyone, regardless of how well they are doing in the course, is welcome to come to office hours to ask questions, clarify concepts and discuss thier approach or strategy.  
